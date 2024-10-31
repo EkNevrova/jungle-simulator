@@ -3,7 +3,7 @@ package by.eknevrova.junglesimulator.model;
 public class KomodoVaranus {
     // 100 единиц здоровья hp
     // 100 единиц энергии en
-    // 2.5 коэффициент зубов - сколько энергии комодский варан получает, когда кого-то съест
+    // 2.5 коэффициент зубов coeff - сколько энергии комодский варан получает, когда кого-то съест
     private int health = 100;
     private int energy = 100;
     private final double FANGS = 2.5;
@@ -27,5 +27,4 @@ public class KomodoVaranus {
     public double getFANGS() {
         return this.FANGS;
     }
-
 }
